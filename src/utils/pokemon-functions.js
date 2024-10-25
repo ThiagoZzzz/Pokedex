@@ -2,7 +2,7 @@ export async function get_pokemon (id){
     try{
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
         
-        if (!response.ok) {  // Verifica si la respuesta es satisfactoria (código 2xx)
+        if (!response.ok) {  // Verifica si la respuesta es satisfactoria
             if (response.status === 404) {
                 throw new Error(`Pokemon with ID ${id} not found (Error 404).`);
             } else {

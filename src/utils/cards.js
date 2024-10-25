@@ -30,7 +30,7 @@ function template_card(pokemon){
             <img id="pokemon-img" src="${sprites.front_default}" alt="">
             <div class="btn_row">
                 <button id="toggle-img" class="img-btn">
-                    <img src="./src/assets/icons/spark.svg" alt="">
+                    <img src="assets/icons/spark.svg" alt="">
                 </button>
             </div>
             <div class="types_row">
@@ -45,13 +45,11 @@ function template_card(pokemon){
     toggle_image(sprites)
     return
 }
-/* <div class="container_images"></div> */
-/* <img src="${sprites.front_shiny}" alt=""></img> */
 
 export function render_error(msg){
     return card_container.innerHTML = `
         <div class="error_card">
-            <img src="./src/assets/icons/exclamation.svg" alt="">
+            <img src="/assets/icons/exclamation.svg" alt="">
             <p>${msg}</p>
         </div>
     `
