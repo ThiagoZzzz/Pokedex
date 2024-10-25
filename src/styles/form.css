@@ -1,0 +1,45 @@
+/* Form style */
+@import url(./root.css);
+.row{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.search_input{
+    text-align: center;
+    min-width: 30vw;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all .3s ease-out;
+}
+
+.search_input::placeholder{
+    text-align: center;
+    font-style: italic;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all .5s ease-in-out;
+}
+
+.btn > img{
+    width: 30px;
+}
+
+.btn:hover{
+    background-color: var(--light_blue);
+    cursor: pointer;
+}

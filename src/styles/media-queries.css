@@ -1,0 +1,35 @@
+/* Media Queries para Cards */
+
+@media (max-width: 1200px) {
+    .card {
+        max-width: 55vw; /* Aumenta el ancho mínimo en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        min-width: 40vw; /* Aumenta aún más el ancho mínimo para tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        min-width: 80vw; /* Aumenta el ancho mínimo para dispositivos móviles */
+        padding: 1rem; /* Reduce el padding para más espacio */
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        min-width: 80vw; /* Ancho casi completo para pantallas muy pequeñas */
+        padding: 1rem; /* Reduce aún más el padding */
+    }
+
+    .card_row {
+        font-size: 18px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+
+    .details {
+        padding: 5px; /* Reduce el padding en detalles para pantallas pequeñas */
+    }
+}

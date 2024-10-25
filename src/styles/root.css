@@ -1,0 +1,28 @@
+:root{
+    --red: #ff0000;
+    --pink_red: #cc003d;
+    --blue: #3b4cca;
+    --light_blue: #56cef3;
+    --yellow: #ffde00;
+    --mid_yellow:#b3a125;
+    --dark_yellow:#817317;
+
+    --grass: #417213;
+    --poison: rgb(102, 0, 128);
+    --normal: grey;
+    --fight: rgb(177, 10, 5);
+    --water: rgb(37, 37, 131);
+    --fairy: rgb(236, 170, 190);
+    --bug: #2c4911;
+    --fire: rgb(255, 94, 0);
+    --psychic: rgb(238, 45, 103);
+    --ghost: rgb(25, 9, 44);
+    --steel: rgb(73, 69, 69);
+    --flying: rgb(112, 112, 199);
+    --electric: rgb(206, 191, 57);
+    --ground: rgb(184, 125, 17);
+    --rock: rgb(129, 114, 87);
+    --ice: #34a2e2;
+    --dragon:  #482ab3;
+    --dark: rgb(17, 14, 14);
+}
